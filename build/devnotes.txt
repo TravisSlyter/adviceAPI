@@ -1,0 +1,37 @@
+API tutorial used:
+https://medium.com/@ppt.co.uk/project-walk-through-building-a-simple-advice-slip-generator-cab99c62b8bb
+
+API website:
+https://api.adviceslip.com/#endpoint-random
+
+PWA tutorial used:
+https://www.youtube.com/watch?v=PL2DG9LJoVQ&t=403s
+
+additional API info in PWA tutorial at 12:25.
+
+to check if http-server is installed:
+$ http-server
+
+to install http-server:
+$ npm i http-server -g
+
+to run server:
+$ npm run serve
+
+to install workbox:
+$ npm install workbox-cli -g
+
+to view workbox directory for setup:
+$ workbox
+
+to start workbox setup:
+$ workbox wizard
+
+to create sw files:
+$ workbox generateSW
+
+then script tag in html for serviceWorker js.
+
+at this point found the PWA tutorial depracated so 
+went to workbox documentation at:
+https://codelabs.developers.google.com/codelabs/workbox-lab/#0

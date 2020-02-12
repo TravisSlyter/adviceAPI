@@ -1,0 +1,57 @@
+:root {
+    --blue2: #759dbe;
+    --offWhite: rgb(243, 243, 243);
+    --lightGray: rgb(209, 209, 209);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: var(--blue2);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.main {
+    height: 500px;
+    width: 700px;
+    background-color: var(--offWhite);    
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+
+.advice-box {
+    height: 350px;
+    width: 600px;
+    border: 3px solid var(--lightGray);
+    border-radius: 10px;
+    display: grid;
+    margin-top: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+#advice {
+    font-family: 'Montserrat';
+    margin: 20px;
+}
+
+.btn {
+    height: 50px;
+    width: 300px;
+    margin-left: 150px;
+    background-color: var(--blue2);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
