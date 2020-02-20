@@ -1,3 +1,4 @@
+(function(){
 // variables
 const API_URL = "https://api.adviceslip.com/advice";
 const advice = document.querySelector("#advice");
@@ -46,4 +47,6 @@ function addQuote(quote) {
 function getId(id) {
     console.log(id);
 }
+
+})();
 
